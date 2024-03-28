@@ -6,17 +6,16 @@ rows:
 - type: contact
   data:
   - type: schedule
-    days: Lunes a Viernes
-    hours: 9:00 - 12:30 y 14:30 - 20:00
+    days: Lunes y Miércoles
+    hours: 9:30 - 13:30
+  - type: schedule
+    days: Martes, Jueves y Viernes
+    hours: 9:30 - 13:30 y 16:00 - 19:30
   - type: br
   - type: phone
     label: 646 15 83 88
   - type: whatsapp
     label: 646 15 83 88
-    # button: link
-  # - type: mail
-  #   label: clinicadrimplantes07@gmail.com
-  #   full: true
   - type: address
     active: true
     name: Clínica Dr. Implantes

@@ -1,8 +1,7 @@
 title: Contacto
-subtitle: ¿En qué podemos ayudarte?
-button: link
+subtitle: Consulta o pide cita
+gradient: main-light
 size: sm
-icon: paper-plane
 rows:
 - type: contact
   data:
@@ -11,36 +10,25 @@ rows:
     hours: 9:00 - 12:30 y 14:30 - 20:00
   - type: br
   - type: phone
-    label: 111 222 333
+    label: 646 15 83 88
   - type: whatsapp
-    label: 444 555 666
-    button: link
-  - type: mail
-    label: info@sansoul.es
-    full: true
-  - type: custom
-    link: https://www.instagram.com/quantumfracture/
-    label: Instagram
-    icon: instagram
-    font_alt: false
-    button: dark
-  - type: custom
-    link: https://www.facebook.com/QuantumFracture
-    label: Facebook
-    icon: facebook-f
-    font_alt: false
-    button: light
+    label: 646 15 83 88
+    # button: link
+  # - type: mail
+  #   label: clinicadrimplantes07@gmail.com
+  #   full: true
   - type: address
     active: true
-    name: ''
-    streetAddress: Ronda de Levante, 1
-    postalCode: 30008
-    addressLocality: Murcia
-    addressRegion: Murcia
+    name: Clínica Dr. Implantes
+    streetAddress: Av. de Ramón y Cajal
+    postalCode: 03003
+    addressLocality: Alicante
+    addressRegion: Comunidad Valenciana
     addressCountry: España
-    coordinates: '{"type":"Point","coordinates":[-1.1306520,37.9922180]}'
+    coordinates: '{"type":"Point","coordinates":[-0.4881014,38.3402924]}'
+    button: light
   form:
-    fill_inputs: true
+    fill_inputs: false
     items:
     - type: text
       name: Nombre
@@ -53,7 +41,12 @@ rows:
     - type: textarea
       name: Mensaje
       required: true
+
+- type: columns
+  items:
+  - image: fondo.jpg
+
+- type: contact
   map:
     active: true
-    link: https://g.page/webmurcia
-    iframe: ''
+    link: https://g.page/r/CVXAJGf1Y05bEBM

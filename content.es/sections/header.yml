@@ -1,13 +1,25 @@
-title: SanSoul Hugo Theme
-subtitle: SanSoul es un tema de Hugo con alma para webs de servicios por lorensansol
-image: logo.svg
-color: main-dark
-bg: fondo.jpg
-description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-  [btn icon-plus Más](#principal)
+anchor: Dr. Implantes - Clínica Dental en Alicante
+gradient: main-light
+gradient_type: linear-t
 more:
   full_screen: true
-  image_min: 18
-  image_max: 20
+
+rows:
+- type: columns
+  design:
+    gap: 3
+  items:
+  - image: logo-tr.svg
+    subtitle: Clínica Dental en Alicante especializada en Implantología Oral y Periodontología
+    description: |
+      Contamos con aparatos de última generación y con el **Dr. José Antonio**, experto en implantología oral desde 1997 colocando más de 5000 casos de implantes
+
+      [btn Servicios](#servicios)
+      [btn Contacto](#contacto)
+    more:
+      align: left
+      align_y: center
+    span: 3
+  - image: portada.jpg
+    span: 2
+    # order: -1

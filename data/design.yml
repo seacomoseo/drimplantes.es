@@ -5,21 +5,21 @@ icons:
 fonts:
   google: true
   base:
-    family: Montserrat
-    weight: 400
+    family: Roadgeek 2005 Transport
+    weight: 500
     strong: 0
     italic: false
     line-height: 1.25
   cursive:
-    family: Dancing Script
-    weight: 400
+    family: Roadgeek 2005 Transport
+    weight: 500
     strong: 0
     italic: false
     line-height: 1.25
     top: 0
   title:
-    family: Montserrat
-    weight: 800
+    family: Roadgeek 2005 Transport
+    weight: 700
     strong: 0
     italic: false
     line-height: 1.25
@@ -27,17 +27,17 @@ fonts:
   blockquote_cursive: true
 colors:
   main:
-    color: '#bdd5ea'
+    color: '#50b0e7'
     light: '#fff'
     dark: '#fff'
     contrast: text
   alt:
-    color: '#fff'
+    color: '#656263'
     light: '#fff'
     dark: '#fff'
     contrast: all
   link:
-    color: '#fe5f55'
+    color: '#fff'
     light: '#fff'
     dark: '#fff'
     contrast: text
@@ -45,10 +45,10 @@ colors:
     white: '#fff'
     light: '#eee'
     grey: '#767676'
-    dark: '#282525'
+    dark: '#231f20'
     black: '#000'
 rounded:
-  radius: 0.33
+  radius: 1.33
   chamfer: false
 buttons:
   sides_round: false
@@ -59,7 +59,7 @@ buttons:
 shadow:
   left: 0.15
   top: 0.15
-  blur: 0
+  blur: 0.15
   color: black
   opacity: 0.15
 lightbox_overlay:
@@ -67,5 +67,5 @@ lightbox_overlay:
   color: black
 performance:
   showup: true
-  parallax: true
+  parallax: false
   srcsetx2: true

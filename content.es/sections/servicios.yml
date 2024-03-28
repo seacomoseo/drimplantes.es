@@ -1,27 +1,28 @@
 title: Servicios
-subtitle: ¿Qué procesos seguimos?
-icon: rocket-launch
+subtitle: Tratamientos que realizamos
 rows:
 - type: columns
   design:
+    num: 4
     num_xs: true
     color: white
-    inset: true
-    uppercase: true
     underline: true
-    image: fondo.jpg
-    icon: frog
-    link: '#ejemplo'
+    title_size: .9
   items:
-  - title: OLA K ASE
-    subtitle: Agámoslo!
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-  - title: OLA K ASE
-    subtitle: Agámoslo!
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-  - title: OLA K ASE
-    subtitle: Agámoslo!
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+  - title: Implantología <br> Dental
+    icon: iconos-implantologia
+  - title: Ortodoncia e <br> Invisalign
+    icon: iconos-ortodoncia
+  - title: Estética Dental y <br> Blanqueamiento
+    icon: iconos-estetica
+  - title: Terapéutica <br> Dental
+    icon: iconos-odontologia-conservadora
+  - title: Endodoncias
+    icon: iconos-endodoncia
+  - title: Periodoncias
+    icon: teeth
+  - title: Limpiezas <br> Dentales
+    icon: teeth-open
+  - title: Ácido <br> Hialurónico
+    icon: lips
+

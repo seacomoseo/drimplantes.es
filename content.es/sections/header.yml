@@ -14,12 +14,8 @@ rows:
 
       [btn Servicios](#servicios)
       [btn Contacto](#contacto)
-
       **WE SPEAK icon-flag-en**
     more:
       align: left
       align_y: center
-    # span: 3
   - image: portada.png
-    # span: 2
-    # order: -1

@@ -8,11 +8,10 @@
   .subtitle {                 @include show-from(1); }
   .description p {            @include show-from(2); }
   .description .buttons {     @include show-from(3); }
-  .description p:last-child { @include show-from(4); }
-  .column--item-2 .image {    @include show-from(5); }
-  // .description .buttons {
-  //   align-items: center;
-  // }
+  .column--item-2 .image {    @include show-from(4); }
+  .description .buttons {
+    align-items: center;
+  }
   .description svg {
     border-radius: 50%;
   }

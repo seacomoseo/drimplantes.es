@@ -1,9 +1,7 @@
 anchor: Dr. Implantes - Clínica Dental en Alicante
 gradient: main-light
 gradient_type: linear-t
-more:
-  full_screen: true
-
+size: xl
 rows:
 - type: columns
   design:
@@ -16,10 +14,12 @@ rows:
 
       [btn Servicios](#servicios)
       [btn Contacto](#contacto)
+
+      **WE SPEAK icon-flag-en**
     more:
       align: left
       align_y: center
-    span: 3
-  - image: portada.jpg
-    span: 2
+    # span: 3
+  - image: portada.png
+    # span: 2
     # order: -1

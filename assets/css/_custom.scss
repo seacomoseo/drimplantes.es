@@ -4,9 +4,19 @@
   @mixin show-from($delay) {
     animation: show-from .5s (.25 + .125s * $delay) both;
   }
-  .image {                 @include show-from(0); }
-  .subtitle {              @include show-from(1); }
-  .description p {         @include show-from(2); }
-  .description .buttons {  @include show-from(3); }
-  .column--item-2 .image { @include show-from(4); }
+  .image {                    @include show-from(0); }
+  .subtitle {                 @include show-from(1); }
+  .description p {            @include show-from(2); }
+  .description .buttons {     @include show-from(3); }
+  .description p:last-child { @include show-from(4); }
+  .column--item-2 .image {    @include show-from(5); }
+  // .description .buttons {
+  //   align-items: center;
+  // }
+  .description svg {
+    border-radius: 50%;
+  }
+  .column--item-2 {
+    margin-bottom: -8em;
+  }
 }

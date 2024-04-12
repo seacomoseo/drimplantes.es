@@ -6,23 +6,30 @@ rows:
     num: 4
     num_xs: true
     color: white
-    underline: true
     title_size: .9
+    licon: none
   items:
-  - title: Implantología <br> Dental
-    icon: iconos-implantologia
-  - title: Ortodoncia e <br> Invisalign
-    icon: iconos-ortodoncia
-  - title: Estética Dental y <br> Blanqueamiento
-    icon: iconos-estetica
-  - title: Terapéutica <br> Dental
-    icon: iconos-odontologia-conservadora
-  - title: Endodoncias
-    icon: iconos-endodoncia
-  - title: Periodoncias
-    icon: teeth
-  - title: Limpiezas <br> Dentales
-    icon: teeth-open
-  - title: Ácido <br> Hialurónico
-    icon: lips
-
+  - icon: iconos-implantologia
+    title: Implantología <br> Dental
+    link: '#implantologia'
+  - icon: iconos-ortodoncia
+    title: Ortodoncia e <br> Invisalign
+    link: '#ortodoncia'
+  - icon: iconos-estetica
+    title: Estética Dental y <br> Blanqueamiento
+    link: '#estetica'
+  # - icon: iconos-terapeutica
+  #   title: Terapéutica <br> Dental
+  #   link: '#terapeutica'
+  - icon: iconos-endodoncia
+    title: Endodoncias
+    link: '#endodoncia'
+  - icon: teeth
+    title: Periodoncias
+    link: '#periodoncias'
+  - icon: teeth-open
+    title: Limpiezas <br> Dentales
+    link: '#limpiezas-dentales'
+  - icon: lips
+    title: Ácido <br> Hialurónico
+    link: '#acido-hialuronico'

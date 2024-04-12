@@ -12,5 +12,14 @@ menu:
 sections:
 - file: header
 - file: servicios
+  modals:
+  - implantologia
+  - ortodoncia
+  - estetica
+  # - terapeutica
+  - endodoncia
+  - periodoncias
+  - limpiezas-dentales
+  - acido-hialuronico
 - file: contacto
 ---

@@ -14,8 +14,20 @@ rows:
   - type: br
   - type: phone
     label: 646 15 83 88
+    icon: mobile-screen
   - type: whatsapp
     label: 646 15 83 88
+  - type: br
+  - type: phone
+    label: 966 45 68 25
+    icon: phone-rotary
+  - type: custom
+    label: '@dr_implantes'
+    link: https://www.instagram.com/dr_implantes
+    ofuscarte: true
+    font_alt: true
+    button: dark
+    icon: instagram
   - type: address
     active: true
     name: Clínica Dr. Implantes

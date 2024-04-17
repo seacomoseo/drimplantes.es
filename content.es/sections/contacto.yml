@@ -30,7 +30,7 @@ rows:
     icon: instagram
   - type: address
     active: true
-    label: Av. de Ramón y Cajal, 7, esquina con C. Alemania, 03003, Alicante
+    label: Av. de Ramón y Cajal, 7, esquina C. Alemania, 03003, Alicante
     name: Clínica Dr. Implantes
     streetAddress: Av. de Ramón y Cajal, 7
     postalCode: '03003'

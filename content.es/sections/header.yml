@@ -5,6 +5,7 @@ size: xl
 rows:
 - type: columns
   design:
+    num: 2
     gap: 3
   items:
   - image: logo-tr.svg
@@ -18,4 +19,4 @@ rows:
     more:
       align: left
       align_y: center
-  - image: portada.png
+  # - image: portada.png
